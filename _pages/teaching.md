@@ -7,14 +7,15 @@ author_profile: true
 
 ## Instructor
 
-- [BCOR 2206: Principles of Supply Chain Management](https://experts.colorado.edu/display/coursename_BCOR-2206) — Spring 2025, Fall 2026
+- [BCOR 2206: Principles of Operations Management](https://experts.colorado.edu/display/coursename_BCOR-2206) — Spring 2025, Fall 2026
+
+[View my Rate My Professors profile](https://www.ratemyprofessors.com/professor/3076724)
 
 ## Teaching assistant
 
 - [BCOR 2206: Principles of Operations Management](https://experts.colorado.edu/display/coursename_BCOR-2206) — 2024–2025
 - [CS 125: Introduction to Data Analysis for Social Sciences](https://catalog.bilkent.edu.tr/course/c11125.html) — 2021
 
-[View my Rate My Professors profile](https://www.ratemyprofessors.com/professor/3076724)
 
 ## Class photos
 

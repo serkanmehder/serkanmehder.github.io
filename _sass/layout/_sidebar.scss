@@ -28,6 +28,7 @@
 
   @include breakpoint($large) {
     @include span(2 of 12);
+    width: 250px;
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -145,7 +146,7 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
+  width: 76px;
   // set width only, for non-square avatars
   // height: 36px;
 
@@ -156,8 +157,8 @@
   }
 
   img {
-    max-width: 175px;
-    border-radius: 50%;
+    max-width: 250px;
+    border-radius: 0;
 
     @include breakpoint($large) {
       padding: 5px;

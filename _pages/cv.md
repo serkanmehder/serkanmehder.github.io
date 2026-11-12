@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Curriculum Vitae"
+title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,4 +8,4 @@ redirect_from:
   - /resume/
 ---
 
-[View or download my CV (PDF)]({{ '/files/serkan-mehder-cv.pdf' | relative_url }})
+You can find my CV [here]({{ '/files/serkan-mehder-cv.pdf' | relative_url }}).

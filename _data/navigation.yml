@@ -1,11 +1,7 @@
 main:
-  - title: "Home"
-    url: /
   - title: "Research"
     url: /research/
-  - title: "CV"
-    url: /cv/
   - title: "Teaching"
     url: /teaching/
-  - title: "Contact"
-    url: /contact/
+  - title: "CV"
+    url: /cv/

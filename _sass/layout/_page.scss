@@ -3,6 +3,8 @@
    ========================================================================== */
 
 #main {
+  flex: 1 0 auto;
+  width: 100%;
   @include container;
   @include clearfix;
   margin-top: 2em;
@@ -19,8 +21,9 @@
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
+    width: calc(100% - 290px);
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .page__inner-wrap {

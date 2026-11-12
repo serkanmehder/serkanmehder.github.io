@@ -9,10 +9,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year PhD student at the Leeds School of Business in Operations. My research interests are in the intersection of:
+I am a fourth-year PhD student at the Leeds School of Business in Operations Management. My research interests are in the intersection of:
 
 - Causal Inference
 - Experimental Consumer Behavior
 - Online Platforms
-
-[Research]({{ '/research/' | relative_url }}) · [Curriculum vitae]({{ '/files/serkan-mehder-cv.pdf' | relative_url }}) · [Contact]({{ '/contact/' | relative_url }})
