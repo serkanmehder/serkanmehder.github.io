@@ -1,0 +1,26 @@
+<div class="photo-album" role="region" aria-label="Class photo album" data-photo-album>
+  <div class="photo-album__slides">
+    {% for photo in page.class_photos %}
+    <figure class="photo-album__slide" role="group" aria-label="Photo {{ forloop.index }} of {{ forloop.length }}">
+      <a href="{{ photo.image | relative_url }}" aria-label="Open full-size class photo: {{ photo.caption | escape }}">
+        <img src="{{ photo.image | relative_url }}" alt="Class photo for {{ photo.caption | escape }}" loading="lazy">
+      </a>
+      <figcaption>{{ photo.caption }}</figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+  <div class="photo-album__controls" hidden>
+    <div class="photo-album__navigation">
+      <button type="button" data-photo-previous aria-label="Previous class photo">&#8592;</button>
+      <span class="photo-album__status" aria-live="polite" aria-atomic="true"></span>
+      <button type="button" data-photo-next aria-label="Next class photo">&#8594;</button>
+    </div>
+    <div class="photo-album__thumbnails" role="group" aria-label="Choose a class photo">
+      {% for photo in page.class_photos %}
+      <button type="button" data-photo-index="{{ forloop.index0 }}" aria-label="Show {{ photo.caption | escape }}" aria-pressed="false">
+        <img src="{{ photo.image | relative_url }}" alt="" loading="lazy">
+      </button>
+      {% endfor %}
+    </div>
+  </div>
+</div>

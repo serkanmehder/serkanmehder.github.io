@@ -3,6 +3,15 @@ layout: single
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
+class_photos:
+  - image: /images/class-photo-1.jpg
+    caption: BCOR 2206-3 (Spring 2025)
+  - image: /images/class-photo-2.jpg
+    caption: BCOR 2206-4 (Spring 2025)
+  - image: /images/class-photo-3.jpg
+    caption: BCOR 2206-8 (Fall 2026)
+  - image: /images/class-photo-4.jpg
+    caption: BCOR 2206-9 (Fall 2026)
 ---
 
 ## Instructor
@@ -19,19 +28,5 @@ author_profile: true
 
 ## Class photos
 
-### BCOR 2206-3 (Spring 2025)
-
-[![Class photo for BCOR 2206-3 (Spring 2025)]({{ '/images/class-photo-1.jpg' | relative_url }})]({{ '/images/class-photo-1.jpg' | relative_url }})
-
-### BCOR 2206-4 (Spring 2025)
-
-[![Class photo for BCOR 2206-4 (Spring 2025)]({{ '/images/class-photo-2.jpg' | relative_url }})]({{ '/images/class-photo-2.jpg' | relative_url }})
-
-### BCOR 2206-8 (Fall 2026)
-
-[![Class photo for BCOR 2206-8 (Fall 2026)]({{ '/images/class-photo-3.jpg' | relative_url }})]({{ '/images/class-photo-3.jpg' | relative_url }})
-
-### BCOR 2206-9 (Fall 2026)
-
-[![Class photo for BCOR 2206-9 (Fall 2026)]({{ '/images/class-photo-4.jpg' | relative_url }})]({{ '/images/class-photo-4.jpg' | relative_url }})
+{% include class-photo-album.html %}
 

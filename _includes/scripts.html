@@ -1,4 +1,7 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
+{% if page.class_photos %}
+<script src="{{ '/assets/js/photo-album.js' | relative_url }}" defer></script>
+{% endif %}
 
 {% include analytics.html %}
 
