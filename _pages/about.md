@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "Hello!"
+title: "About Me"
+browser_title: "Serkan Mehder"
 permalink: /
 author_profile: true
 redirect_from:

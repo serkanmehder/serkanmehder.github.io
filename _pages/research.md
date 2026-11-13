@@ -11,7 +11,7 @@ author_profile: true
 
 (joint work with Maxime Cohen, Armin Khamoshi and Ovunc Yilmaz)
 
-*(Paper complete — awaiting Expedia Group’s permission to submit.)*
+*Paper complete — awaiting Expedia Group’s permission to submit*
 
 <details markdown="1">
 <summary>Abstract</summary>

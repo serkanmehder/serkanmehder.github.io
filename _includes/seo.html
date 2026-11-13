@@ -8,7 +8,9 @@
   {% assign canonical_url = page.url | replace: "/index.html", "/" | prepend: seo_url %}
 {% endif %}
 
-{% if page.title %}
+{% if page.browser_title %}
+  {% assign seo_title = page.browser_title %}
+{% elsif page.title %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
 {% endif %}
 {% if seo_title %}
